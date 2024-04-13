@@ -26,3 +26,8 @@ chmod +x airflow.sh
 ```
 docker compose down --volumes --rmi all
 ```
+
+## poetryの設定ファイルをコピーする
+```
+docker cp bb39e47945b3:./opt/airflow/pyproject.toml ./
+```
